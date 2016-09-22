@@ -16,7 +16,7 @@
 
 
 <sql:update dataSource="${snapshot}" var="result">
-INSERT INTO Employees VALUES (104, 2, 'Ashish', 'Nabira');
+INSERT INTO Employees VALUES (110, 5, 'Samarth', 'Mahajan');
 </sql:update>
  
 <sql:query dataSource="${snapshot}" var="result">
